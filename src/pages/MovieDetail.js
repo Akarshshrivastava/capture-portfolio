@@ -61,6 +61,11 @@ const Headline = styled.div`
 const Awards = styled.div`
     min-height: 80vh;
     display: flex;
+    @media (max-width: 768px) {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 5rem 1rem;
+    }
     margin: 5rem 10rem;
     align-items: center;
     justify-content: space-around;

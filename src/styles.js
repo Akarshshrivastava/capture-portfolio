@@ -21,7 +21,11 @@ export const Description = styled.div`
   padding-right: 5rem;
   z-index: 2;
   h2 {
-    font-weight: lighter;
+    font-weight: 500;
+    @media (max-width: 992px) {
+    font-weight: 400;
+    font-size: 2.8rem;
+  }
   }
   @media (max-width: 992px) {
     padding: 0;
