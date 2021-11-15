@@ -62,6 +62,14 @@ export const slider = {
       ease: "easeOut",
     },
   },
+  // exit: {
+  //   x: "-130%",
+  //   skew: "45deg",
+  //   transition: {
+  //     duration: 1,
+  //     ease: "easeOut",
+  //   },
+  // },
 };
 export const sliderContainer = {
   hidden: { opacity: 0 },

@@ -59,9 +59,9 @@ const Hide = styled.div`
 `;
 const Circle = styled.div`
   border-radius: 50%;
-  width: 3rem;
-  height: 3rem;
-  background: #ccc;
+  width: 2rem;
+  height: 2rem;
+  background: #23d997;
 `;
 const Social = styled(motion.div)`
   display: flex;
